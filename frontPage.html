@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang='en'>
+  
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width'>
+    <title>Golf Quiz</title>
+    <meta name='description' content='Test your working knowledge on the wonderful game of golf'>
+    <link rel="stylesheet" href="style.css" type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class='background'></div>
+    <div class='content-wrapper'>
+      <header role='banner'>
+        <div class='logo'>
+          <img src="https://pngimage.net/wp-content/uploads/2018/06/golf-logo-png-3.png" alt="Golf clubs logo">
+        </div>
+        <div class='questions'>
+          <p>Question: <span class='questionNumber'>0</span>/10</p>
+          <p>Score: <span class='score'>0</span></p>
+        </div>
+      </header>
+        
+    <main role='main'>
+      <div class='startQuiz'>
+        <h1>How much do you know about golf?</h1>
+        <button type='button' class='startButton'>Start Quiz</button>
+      </div>
+      <div class='questionAndAnswers'></div>
+    </main>
+  </div>
+
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src='store.js'></script>
+  <script src='script.js'></script>
+
+
+  </body>
+
+</html>
