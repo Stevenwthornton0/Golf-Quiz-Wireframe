@@ -111,7 +111,7 @@ fieldset {
   flex-direction: column;
 }
 
-input.submitButton, .answerOptions {
+.submitButton, .answerOptions {
   border-radius: 3px;
   padding: 18px;
   margin-right: auto;
